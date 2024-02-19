@@ -1,8 +1,9 @@
 import React from 'react'
+import img from '../assets/foto.avif'
 
 const ImgComponent = () => {
     return (
-        <img src="/foto.avif" alt="foto" />
+        <img src={img} alt="foto" />
     )
 }
 

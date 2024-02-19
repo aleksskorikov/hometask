@@ -115,16 +115,14 @@ hr{
   margin: 0;
 }
 .product-description{
-  padding-right: 3rem;
-  padding-left: 0.5rem;
   text-align: start;
   background: rgb(231, 127, 127);
   font-size: 1rem;
+  padding: 1rem 3rem 1rem 0.5rem;
 }
 .product-counter{
   display: flex;
   align-items: center;
-  /* border: 1px solid black; */
 }
 .counter-block{
   display: flex;
