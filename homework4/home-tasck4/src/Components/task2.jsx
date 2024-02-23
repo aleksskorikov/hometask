@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactFoto from '../assets/react.svg';
 
 export default class task2 extends Component {
     constructor(props) {
@@ -25,8 +26,8 @@ export default class task2 extends Component {
     render() {
         return (
             <>
-            <button onClick={this.Visability}>Тогл</button>
-            {this.state.Visible && <div>Цей компонент видимий</div>}
+            <button onClick={this.Visability} className='tasck2-btn'>Click</button>
+                {this.state.Visible && <div><img src={ ReactFoto } alt="foto" className='tasck2-img'/></div>}
             </>
         )
     }

@@ -28,8 +28,8 @@ export default class task3 extends Component {
   render() {
     return (
       <>
-        <p>Поточне число: {this.state.count}</p>
-        <button onClick={this.incrementCount}>Збільшити</button>
+        <p className='tasck3-count'>Поточне число: {this.state.count}</p>
+        <button onClick={this.incrementCount} className='tasck3-btn'>Збільшити</button>
       </>
 
     )

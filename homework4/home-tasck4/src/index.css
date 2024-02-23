@@ -12,4 +12,24 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.tasck2-btn, .tasck3-btn{
+  width: 100px;
+  height: 35px;
+  background: rgb(80, 235, 80);
+  border-radius: 1rem;
+}
+.tasck2-img{
+  width: 3rem;
+  margin-top: 2rem;
+}
+.tasck3-count{
+  border: 4px solid gray;
+  border-radius: 1rem;
+  background: rgb(185, 184, 184);
+  width: 200px;
+  padding: 10px;
+  margin: 0 auto 2rem;
+  font-size: 1.5rem;
+  
+}
 
