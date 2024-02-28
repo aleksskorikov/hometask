@@ -1,0 +1,51 @@
+
+
+.requestcall__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(181, 179, 179);
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 50%;
+    margin: 5rem auto;
+}
+
+.form-title{
+    font-size: 3rem;
+    color: rgb(8, 105, 105);
+    margin-bottom: 2rem;
+}
+.form-span{
+    font-size: 1rem;
+    color: red;
+}
+.requestcall__form-input{
+    width: 70%;
+    height: 3rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: gray;
+    border: none;
+}
+.error{
+    border: 2px solid red;
+    background: rgb(236, 167, 167);
+}
+
+.form-btn{
+    width: 70%;
+    height: 3rem;
+    background: rgb(124, 233, 124);
+    border-radius: 10px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: rgb(90, 89, 89);
+    margin-bottom: 2rem;
+    &:hover{
+        background: rgb(77, 179, 77);
+        color: antiquewhite;
+    }
+}

@@ -1,0 +1,58 @@
+
+.tasck4 {
+    width: 80%;
+    background: rgb(62, 118, 118);
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.tasck4-title {
+    font-size: 3rem;
+    color: rgb(200, 237, 237);
+}
+.component__a{
+    background: rgb(85, 159, 159);
+    border-radius:  15px ;
+    padding: 1rem ;
+}
+.component__a-title{
+    font-size: 2rem;
+    color: rgb(200, 237, 237);
+    margin-bottom: 1rem;
+}
+.component__b{
+    background: rgb(116, 214, 214);
+    border-radius: 15px;
+}
+.component__b-title{
+    font-size: 2rem;
+    color: rgb(78, 93, 93);
+    margin-bottom: 1rem;
+}
+.component__b-count{
+    width: 100px;
+    padding: 1rem;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    background-color: rgb(15, 77, 77);
+    border-radius: 10px;
+    color: antiquewhite;
+}
+.component__b-btn{
+    width: 100px;
+    height: 30px;
+    margin: 1rem;
+    border-radius: 10px;
+    background-color: rgb(205, 77, 154);
+    color: antiquewhite;
+    font-size: 1.5rem;
+    position: relative;
+    top: 0;
+    &:hover{
+        background-color: rgb(133, 48, 99);
+    }
+    &:active{
+        top: 1px;
+    }
+}
