@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.conteiner{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  width: 80rem;
+  margin: 0 auto;
+  border: 2px solid gray;
+  padding: 2rem;
+}
+.user-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20rem;
+  border: 2px solid brown;
+  border-radius: 10px;
+  background: rgb(136, 80, 80);
+}
+.user-name{
+  font-size: 2rem;
+  color: bisque;
+}
+.user-email, .user-sity, .user-strit{
+    font-size: 1.2rem;
+    color: rgb(241, 227, 211);
+}
+.user-adress{
+  background: rgb(234, 159, 159);
+  padding: 1rem;
+}
